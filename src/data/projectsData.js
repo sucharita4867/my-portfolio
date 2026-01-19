@@ -81,19 +81,6 @@ export const projectsData = [
     description: `Green Nest is a plant care web application where users can explore different plants and their details. It provides simple guidance on how to grow and care for plants properly. Users can also get expert suggestions from seniors to improve plant growth. The platform is clean, responsive, and easy to use.`,
     liveLink: "https://delightful-basbousa-c863c6.netlify.app/",
     githubLink: "",
-    // challenges: [
-    //   "Handling API rate limits and implementing efficient caching",
-    //   "Creating intuitive data visualizations for complex weather patterns",
-    //   "Ensuring accurate geolocation across different devices and browsers",
-    //   "Designing a responsive interface that displays multiple data points clearly",
-    // ],
-    // improvements: [
-    //   "Add weather-based activity recommendations",
-    //   "Implement push notifications for severe weather alerts",
-    //   "Add historical weather data and climate trends",
-    //   "Create customizable widgets for different weather metrics",
-    //   "Add multi-language support for international users",
-    // ],
   },
   {
     id: 4,
@@ -113,12 +100,7 @@ export const projectsData = [
     description: `Green-Earth is a client-side web application designed as an online tree and plant shop. Users can browse available plants, view detailed information, and add selected plants to a cart. The platform also provides tree-care guidance from mentors on the home page to help users learn how to properly take care of plants and promote a greener environment.`,
     liveLink: "https://sucharita4867.github.io/Green-Earth/",
     githubLink: "https://github.com/sucharita/portfolio-builder",
-    // challenges: [
-    //   "Creating a flexible component system that supports drag-and-drop",
-    //   "Implementing real-time preview across different device sizes",
-    //   "Generating clean, optimized code from visual components",
-    //   "Ensuring accessibility compliance across all generated portfolios",
-    // ],
+
     // improvements: [
     //   "Add AI-powered content suggestions and writing assistance",
     //   "Implement custom domain integration",
