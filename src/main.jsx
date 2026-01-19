@@ -1,12 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./App.jsx";
 import "./index.css";
 import { RouterProvider } from "react-router";
 import Router from "./router/router.jsx";
+import SmoothScroll from "./components/SmoothScroll";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <RouterProvider router={Router} />
+    <SmoothScroll>
+      <RouterProvider router={Router} />
+    </SmoothScroll>
   </React.StrictMode>
 );
