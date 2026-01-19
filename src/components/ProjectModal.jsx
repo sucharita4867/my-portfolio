@@ -69,7 +69,7 @@ const ProjectModal = ({ project, onClose }) => {
                 <h3 className="text-xl font-semibold">Tech Stack</h3>
               </div>
               <div className="flex flex-wrap gap-2">
-                {project.techStack.map((tech, i) => (
+                {project.techStack?.map((tech, i) => (
                   <span
                     key={i}
                     className="px-4 py-2 bg-purple-500/20 text-purple-300 rounded-full text-sm font-medium"
@@ -117,7 +117,7 @@ const ProjectModal = ({ project, onClose }) => {
                 <h3 className="text-xl font-semibold">Challenges Faced</h3>
               </div>
               <ul className="space-y-2">
-                {project.challenges.map((challenge, i) => (
+                {project.challenges?.map((challenge, i) => (
                   <li key={i} className="text-gray-400 flex items-start">
                     <span className="text-red-400 mr-2 mt-1">•</span>
                     <span>{challenge}</span>
@@ -133,7 +133,7 @@ const ProjectModal = ({ project, onClose }) => {
                 <h3 className="text-xl font-semibold">Future Improvements</h3>
               </div>
               <ul className="space-y-2">
-                {project.improvements.map((improvement, i) => (
+                {project.improvements?.map((improvement, i) => (
                   <li key={i} className="text-gray-400 flex items-start">
                     <span className="text-green-400 mr-2 mt-1">•</span>
                     <span>{improvement}</span>

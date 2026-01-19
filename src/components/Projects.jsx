@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import { motion, useInView } from "framer-motion";
 import { useRef, useState } from "react";
 import { projectsData } from "../data/projectsData";
@@ -35,7 +36,7 @@ const Projects = () => {
 
           {/* Projects Grid */}
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {projectsData.map((project, index) => (
+            {projectsData?.map((project, index) => (
               <ProjectCard
                 key={project.id}
                 project={project}
