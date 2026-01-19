@@ -55,19 +55,6 @@ export const projectsData = [
     description: `CleanCityPortal is a client-side web application that allows users to report road breakages and other city-related issues by adding problem details and images in a simple and user-friendly way.`,
     liveLink: "https://dreamy-concha-e69351.netlify.app/",
     githubLink: "https://github.com/sucharita4867/CleanCityPortal-client-side",
-    // challenges: [
-    //   "Implementing smooth drag-and-drop functionality with real-time sync",
-    //   "Managing complex state with multiple nested components",
-    //   "Handling offline functionality and data synchronization",
-    //   "Optimizing performance with large numbers of tasks and users",
-    // ],
-    // improvements: [
-    //   "Add Gantt chart view for project timeline visualization",
-    //   "Implement time tracking and productivity analytics",
-    //   "Add integration with popular tools like Slack and Google Calendar",
-    //   "Create mobile apps for iOS and Android",
-    //   "Add AI-powered task prioritization and deadline suggestions",
-    // ],
   },
   {
     id: 3,
@@ -100,13 +87,5 @@ export const projectsData = [
     description: `Green-Earth is a client-side web application designed as an online tree and plant shop. Users can browse available plants, view detailed information, and add selected plants to a cart. The platform also provides tree-care guidance from mentors on the home page to help users learn how to properly take care of plants and promote a greener environment.`,
     liveLink: "https://sucharita4867.github.io/Green-Earth/",
     githubLink: "https://github.com/sucharita/portfolio-builder",
-
-    // improvements: [
-    //   "Add AI-powered content suggestions and writing assistance",
-    //   "Implement custom domain integration",
-    //   "Add analytics dashboard for portfolio visitors",
-    //   "Create marketplace for premium templates and components",
-    //   "Add collaboration features for team portfolios",
-    // ],
   },
 ];
