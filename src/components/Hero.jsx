@@ -72,8 +72,9 @@ const Hero = () => {
 
   const handleDownloadResume = () => {
     // Placeholder for resume download - user will add their resume
-    alert(
-      "Resume download will be available soon! Please add your resume file.",
+    window.open(
+      "https://drive.google.com/file/d/1_Zlu1pWyG1Om7Z4Ql5ZiNh41199YpQ3_/view",
+      "_blank",
     );
   };
 
