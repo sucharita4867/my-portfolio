@@ -82,7 +82,6 @@ const Hero = () => {
     { Icon: Github, link: socialLinks.github, label: "GitHub" },
     { Icon: Linkedin, link: socialLinks.linkedin, label: "LinkedIn" },
     { Icon: Twitter, link: socialLinks.twitter, label: "Twitter" },
-    // { Icon: Facebook, link: socialLinks.facebook, label: "Facebook" },
   ];
 
   return (
