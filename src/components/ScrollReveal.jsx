@@ -56,7 +56,7 @@ export const FadeIn = ({
       transition={{ duration: 0.7, delay: delay, ease: "easeOut" }}
       className={
         fullWidth
-          ? "w-full" //turbo
+          ? "w-full" 
           : ""
       }
     >
