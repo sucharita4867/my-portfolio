@@ -19,7 +19,6 @@ const Navbar = () => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 50);
 
-      // Update active section based on scroll position
       const sections = ["home", "about", "skills", "projects", "contact"];
       const current = sections.find((section) => {
         const element = document.getElementById(section);
