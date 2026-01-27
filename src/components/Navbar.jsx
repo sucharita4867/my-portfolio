@@ -53,7 +53,7 @@ const Navbar = () => {
     >
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex items-center justify-between h-20">
-          {/* Logo */}
+          {/* logo */}
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
