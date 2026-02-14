@@ -31,11 +31,9 @@ const TypewriterText = ({ texts = ["Frontend Developer"] }) => {
 
     const timer = setTimeout(() => {
       if (!isDeleting) {
-        // Typing
         if (displayedText.length < currentFullText.length) {
           setDisplayedText(currentFullText.slice(0, displayedText.length + 1));
         } else {
-          // Finished typing, pause then start deleting
           setTimeout(() => setIsDeleting(true), pauseTime);
         }
       } else {
