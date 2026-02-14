@@ -37,11 +37,9 @@ const TypewriterText = ({ texts = ["Frontend Developer"] }) => {
           setTimeout(() => setIsDeleting(true), pauseTime);
         }
       } else {
-        // Deleting
         if (displayedText.length > 0) {
           setDisplayedText(currentFullText.slice(0, displayedText.length - 1));
         } else {
-          // Finished deleting, move to next text
           setIsDeleting(false);
           setCurrentTextIndex((prev) => (prev + 1) % texts.length);
         }
