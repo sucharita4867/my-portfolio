@@ -73,7 +73,7 @@ const Hero = () => {
   const handleDownloadResume = () => {
     // Placeholder for resume download - user will add their resume
     window.open(
-      "https://drive.google.com/file/d/1_Zlu1pWyG1Om7Z4Ql5ZiNh41199YpQ3_/view",
+      "https://drive.google.com/file/d/1OnWA3pGl55zh_viZSsE4UWOJ8qwHoxd8/view?usp=drive_link",
       "_blank",
     );
   };
