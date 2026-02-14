@@ -20,7 +20,7 @@ const ProjectCard = ({ project, index, onViewDetails }) => {
           src={
             imageError
               ? `https://via.placeholder.com/600x400/6366f1/ffffff?text=${encodeURIComponent(
-                  project.name
+                  project.name,
                 )}`
               : project.image
           }
@@ -43,7 +43,6 @@ const ProjectCard = ({ project, index, onViewDetails }) => {
         )}
       </div>
 
-      {/* Project Info */}
       <div className="flex-1 flex flex-col">
         <h3 className="text-xl font-bold mb-2 group-hover:text-purple-400 transition-colors">
           {project.name}
