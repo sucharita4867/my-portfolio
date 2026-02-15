@@ -69,6 +69,7 @@ const Skills = () => {
     >
       <div className="content-container">
         <motion.div ref={ref}>
+          {/* Section Header */}
           <motion.div
             initial={{ opacity: 0, y: 50 }}
             animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
@@ -85,6 +86,7 @@ const Skills = () => {
             </p>
           </motion.div>
 
+          {/* Skills Grid */}
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <SkillCategory
               title="Frontend Development"
@@ -102,6 +104,7 @@ const Skills = () => {
             />
           </div>
 
+          {/* Additional Info */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
