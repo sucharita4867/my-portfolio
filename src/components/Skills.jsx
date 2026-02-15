@@ -69,7 +69,6 @@ const Skills = () => {
     >
       <div className="content-container">
         <motion.div ref={ref}>
-          {/* Section Header */}
           <motion.div
             initial={{ opacity: 0, y: 50 }}
             animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
