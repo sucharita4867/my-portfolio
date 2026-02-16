@@ -33,7 +33,6 @@ const Projects = () => {
             </p>
           </motion.div>
 
-          {/* Projects Grid */}
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {projectsData?.map((project, index) => (
               <ProjectCard
