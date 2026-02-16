@@ -10,7 +10,6 @@ const Footer = () => {
     { icon: FaGithub, link: socialLinks.github, label: "GitHub" },
     { icon: FaLinkedin, link: socialLinks.linkedin, label: "LinkedIn" },
     { icon: FaTwitter, link: socialLinks.twitter, label: "Twitter" },
-    // { icon: FaFacebook, link: socialLinks.facebook, label: "Facebook" },
   ];
 
   const quickLinks = [
