@@ -204,7 +204,6 @@ const Hero = () => {
                   />
                 </div>
               </div>
-
               {/* Floating Elements with Parallax */}
               <motion.div
                 style={{ y: y2 }}
@@ -214,7 +213,6 @@ const Hero = () => {
                   <FaReact />
                 </div>
               </motion.div>
-
               <motion.div
                 style={{ y: y1 }}
                 className="absolute -bottom-4 -left-4 glass p-4 rounded-2xl border border-white/10"
@@ -226,7 +224,6 @@ const Hero = () => {
             </div>
           </motion.div>
         </div>
-
         {/* Scroll Indicator */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
