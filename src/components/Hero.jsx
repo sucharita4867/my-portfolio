@@ -67,7 +67,7 @@ const Hero = () => {
   const y2 = useTransform(scrollY, [0, 500], [0, -100]);
 
   const handleDownloadResume = () => {
-    // Placeholder for resume download - user will add their resume
+    // new fronend developer resume
     window.open(
       "https://drive.google.com/file/d/1OnWA3pGl55zh_viZSsE4UWOJ8qwHoxd8/view?usp=drive_link",
       "_blank",
