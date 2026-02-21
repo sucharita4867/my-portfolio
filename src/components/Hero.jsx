@@ -123,7 +123,7 @@ const Hero = () => {
               transition={{ duration: 0.8, delay: 0.4 }}
             >
               <h2 className="text-2xl md:text-3xl text-gray-400 font-light">
-                I'm a{" "}
+                I'm a
                 <TypewriterText
                   texts={[
                     "Frontend Developer",
@@ -141,7 +141,6 @@ const Hero = () => {
                 technologies and clean code.
               </p>
             </FadeIn>
-
             {/* Buttons */}
             <FadeIn delay={0.6} direction="up">
               <div className="flex flex-wrap gap-4 mt-4">
@@ -181,7 +180,6 @@ const Hero = () => {
               </div>
             </FadeIn>
           </div>
-
           {/* Right - Profile Image */}
           <motion.div
             initial={{ scale: 0.8, opacity: 0 }}
