@@ -67,7 +67,7 @@ const Hero = () => {
   const y2 = useTransform(scrollY, [0, 500], [0, -100]);
 
   const handleDownloadResume = () => {
-    // new fronend developer resume
+    // new frontend developer resume
     window.open(
       "https://drive.google.com/file/d/1OnWA3pGl55zh_viZSsE4UWOJ8qwHoxd8/view?usp=drive_link",
       "_blank",
@@ -108,7 +108,6 @@ const Hero = () => {
                 👋 Welcome to my portfolio
               </div>
             </FadeIn>
-
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -118,7 +117,6 @@ const Hero = () => {
                 Hi, I'm <span className="gradient-text">Sucharita</span>
               </h1>
             </motion.div>
-
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
