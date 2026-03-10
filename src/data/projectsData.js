@@ -18,7 +18,7 @@ export const projectsData = [
     category: "Full Stack",
     featured: true,
     description: `GEARGUARD is a full‑stack Corporate Asset Management System designed to help organizations manage company assets, employees, and asset distribution efficiently. It provides role‑based access for HR and Employees, secure authentication, asset tracking, request management, and subscription‑based employee limits.`,
-    liveLink: "https://shimmering-gumption-36f8c4.netlify.app/",
+    liveLink: "https://gearguard53.netlify.app/",
     githubLink: "https://github.com/sucharita4867/GearGuard",
     challenges: [
       "Implementing real-time inventory management across multiple users",
@@ -53,7 +53,7 @@ export const projectsData = [
     category: "Full Stack",
     featured: true,
     description: `CleanCityPortal is a client-side web application that allows users to report road breakages and other city-related issues by adding problem details and images in a simple and user-friendly way.`,
-    liveLink: "https://dreamy-concha-e69351.netlify.app/",
+    liveLink: "https://cleancityportal-351.netlify.app/",
     githubLink: "https://github.com/sucharita4867/CleanCityPortal-client-side",
   },
   {
