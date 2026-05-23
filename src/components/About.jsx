@@ -67,7 +67,7 @@ const About = () => {
                 <div className="relative z-10">
                   <div className="text-6xl mb-6">👩‍💻</div>
                   <h3 className="text-2xl font-bold mb-4 gradient-text">
-                    Junior React Developer
+                    Junior Frontend Developer
                   </h3>
                   <p className="text-gray-400 leading-relaxed">
                     Ready to build amazing web experiences with React.
