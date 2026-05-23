@@ -152,7 +152,7 @@ const Hero = () => {
                     size={20}
                     className="group-hover:translate-y-1 transition-transform"
                   />
-                  Download Resume
+                   Resume
                 </button>
                 <a href="#contact" className="btn-outline">
                   Contact Me
