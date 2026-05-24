@@ -84,7 +84,7 @@ const About = () => {
                 </h3>
                 <p className="text-gray-400 leading-relaxed mb-4">
                   I've recently completed my learning journey in web development
-                  and I'm excited to start my career as a Junior React
+                  and I'm excited to start my career as a Junior Frontend
                   Developer. I'm passionate about building modern, responsive
                   web applications and I'm eager to contribute to meaningful
                   projects.
